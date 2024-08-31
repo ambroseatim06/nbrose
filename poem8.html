@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithmic Love - Ambrose Atim's Poetry</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #1e90ff;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #00008b;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffeb3b;
+        }
+
+        .poem-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px #00008b;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #00008b;
+            padding: 10px;
+            text-align: center;
+            color: #ffffff;
+            font-size: 0.9em;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Ambrose Atim's Poetry</h1>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="poems.html">Poems</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="poem-content">
+        <h2>Algorithmic Love</h2>
+        <p>By Ambrose Atim</p>
+        <p>In the logic of algorithms, love finds a way,<br>
+		Through loops and functions, it learns to sway.<br>
+		A dance of data, a romance in code,<br>
+		Where emotions are written in binary mode.</p>
+        <p>In the heart of the machine, feelings intertwine,<br>
+		Creating connections both simple and divine.<br>
+		Through lines of syntax and scripts that sing,<br>
+		Algorithmic love takes flight on digital wings.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ambrose Atim. All rights reserved.</p>
+    </footer>
+</body>
+</html>
